@@ -2,7 +2,7 @@
 
 require "truck.php";
 
-//Creation objet camion1 de la class Truck (choisir couleur,nb de siege, capacité de chargement, et energy(obligatoire essence ou fuel a cause de la Const))
+//Creation objet camion1 de la class Truck (choisir couleur,nb de siege, capacité de chargement, et energy(obligatoire electric ou fuel a cause de la Const))
 $camion1 = new Truck('blue', 3, 100,'fuel');
 
 echo "Le camion à une couleur " .$camion1->getColor() ." , un nombre de  " .$camion1->getNbSeats() ." places " . "et roule en " .$camion1->getEnergy()."<br/>";
